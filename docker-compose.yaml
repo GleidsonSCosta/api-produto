@@ -9,7 +9,7 @@ networks:
 
 services:
   api:
-    image: gleidsonscosta/api-produto:v1
+    image: gleidsonscosta/api-produto:${TAG}
     ports:
       - 8080:8080
     networks:
